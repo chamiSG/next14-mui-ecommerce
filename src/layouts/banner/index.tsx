@@ -15,7 +15,7 @@ const Banner = () => {
           {bannerImageData.map((item: any, i: number) => {
             return (
               <ImageListItem key={i} cols={isMobile ? 1 : item.cols} rows={isMobile ? 1 : item.rows}>
-                <Image src={item.img} alt={item.title} loading="lazy" />
+                <Image src={item.img} alt={item.title} loading="lazy" style={{width: '100%'}} />
                 <ImageListItemBar
                   sx={{ background: 'transparent' }}
                   title={

@@ -28,7 +28,7 @@ const AboutUs = () => {
             {imageData.map((item: any, i: number) => {
               return (
                 <ImageListItem key={i}>
-                  <Image src={item.img} alt={item.title} loading="lazy" />
+                  <Image src={item.img} alt={item.title} loading="lazy" style={{width: '100%'}} />
                 </ImageListItem>
               )
             })}
