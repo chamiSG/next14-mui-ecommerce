@@ -10,12 +10,12 @@ const Banner = () => {
 
   return (
     <>
-      <Box component={'section'} py={'80px'} maxWidth={{ sm: "720px", md: "1148px" }} marginX={"auto"} px={{xs: '2rem', md: '1rem'}}>
-        <ImageList variant="quilted" cols={isMobile ? 1 : 4} rowHeight={300} gap={15}>
+      <Box component={'section'} py={'80px'} maxWidth={{ sm: "720px", md: "1148px" }} marginX={"auto"} px={{ xs: '2rem', md: '1rem' }}>
+        <ImageList variant="quilted" cols={isMobile ? 1 : 4} rowHeight={300} gap={15} sx={{overflow: 'unset'}}>
           {bannerImageData.map((item: any, i: number) => {
             return (
               <ImageListItem key={i} cols={isMobile ? 1 : item.cols} rows={isMobile ? 1 : item.rows}>
-                <Image src={item.img} alt={item.title} loading="lazy" style={{width: '100%'}} />
+                <Image src={item.img} alt={item.title} loading="lazy" width={500} height={500} style={{ width: '100%', height: '100%' }} />
                 <ImageListItemBar
                   sx={{ background: 'transparent' }}
                   title={

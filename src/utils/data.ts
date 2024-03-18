@@ -1,6 +1,6 @@
 export const bannerImageData = [
   {
-    img: 'assets/images/banner/2.jpg',
+    img: '/assets/images/banner/2.jpg',
     title: "FURNITURE",
     quantity: 5,
     cols: 2,
@@ -8,7 +8,7 @@ export const bannerImageData = [
     variant: 'h2'
   },
   {
-    img: 'assets/images/banner/3.jpg',
+    img: '/assets/images/banner/3.jpg',
     title: "FURNITURE",
     quantity: 5,
     cols: 2,
@@ -16,7 +16,7 @@ export const bannerImageData = [
     variant: 'h4'
   },
   {
-    img: 'assets/images/banner/1.jpg',
+    img: '/assets/images/banner/1.jpg',
     title: "FURNITURE",
     quantity: 5,
     cols: 1,
@@ -24,7 +24,7 @@ export const bannerImageData = [
     variant: 'h4'
   },
   {
-    img: 'assets/images/banner/4.jpg',
+    img: '/assets/images/banner/4.jpg',
     title: "FURNITURE",
     quantity: 5,
     cols: 1,
@@ -35,7 +35,7 @@ export const bannerImageData = [
 
 export const postsData = [
   {
-    img: 'assets/images/posts/1.jpg',
+    img: '/assets/images/posts/1.jpg',
     title: "Loudest à la Madison #1 (L'integral)",
     subtitle: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
     comment: 10,
@@ -43,7 +43,7 @@ export const postsData = [
     tags: ['Google', 'Trending', 'New']
   },
   {
-    img: 'assets/images/posts/2.jpg',
+    img: '/assets/images/posts/2.jpg',
     title: "Loudest à la Madison #1 (L'integral)",
     subtitle: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
     comment: 10,
@@ -51,7 +51,7 @@ export const postsData = [
     tags: ['Google', 'Trending', 'New']
   },
   {
-    img: 'assets/images/posts/3.jpg',
+    img: '/assets/images/posts/3.jpg',
     title: "Loudest à la Madison #1 (L'integral)",
     subtitle: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
     comment: 10,
@@ -62,39 +62,39 @@ export const postsData = [
 
 export const imageData = [
   {
-    img: 'assets/images/posts/4.jpg',
+    img: '/assets/images/posts/4.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/5.jpg',
+    img: '/assets/images/posts/5.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/6.jpg',
+    img: '/assets/images/posts/6.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/7.jpg',
+    img: '/assets/images/posts/7.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/8.jpg',
+    img: '/assets/images/posts/8.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/9.jpg',
+    img: '/assets/images/posts/9.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/10.jpg',
+    img: '/assets/images/posts/10.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/11.jpg',
+    img: '/assets/images/posts/11.jpg',
     title: "FURNITURE",
   },
   {
-    img: 'assets/images/posts/12.jpg',
+    img: '/assets/images/posts/12.jpg',
     title: "FURNITURE",
   },
 ];

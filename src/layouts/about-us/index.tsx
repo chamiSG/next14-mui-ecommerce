@@ -9,7 +9,7 @@ const AboutUs = () => {
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
 
   return (
-    <Box component={'section'} maxWidth={{ sm: "720px", md: "1148px" }} marginX={"auto"} px={{xs: '2rem', md: '1rem'}} py={'80px'}>
+    <Box component={'section'} maxWidth={{ sm: "720px", md: "1148px" }} marginX={"auto"} px={{ xs: '2rem', md: '1rem' }} py={'80px'}>
       <Stack direction={{ xs: 'column', md: 'row' }} gap={10} alignItems={'center'} justifyContent={'center'}>
         <Stack gap={3} textAlign={'center'}>
           <Typography variant='h4' color={'secGray.main'}>{CONSTANT.TEXT.ABOUT_US}</Typography>
@@ -24,11 +24,11 @@ const AboutUs = () => {
           </Stack>
         </Stack>
         <Box maxWidth={isMobile ? 366 : 456}>
-          <ImageList variant="quilted" cols={3} rowHeight={isMobile ? 112 : 142} gap={15}>
+          <ImageList variant="quilted" cols={3} rowHeight={isMobile ? 112 : 142} gap={15} sx={{overflow: 'unset'}}>
             {imageData.map((item: any, i: number) => {
               return (
                 <ImageListItem key={i}>
-                  <Image src={item.img} alt={item.title} loading="lazy" style={{width: '100%'}} />
+                  <Image src={item.img} alt={item.title} loading="lazy" width={500} height={500}  style={{ width: '100%', height: '100%' }} />
                 </ImageListItem>
               )
             })}
