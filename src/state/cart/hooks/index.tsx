@@ -29,7 +29,7 @@ export function useCartStateManager() {
       }))
       dispatch(setLineItems(updated))
     },
-    [dispatch],
+    [dispatch, lineItems],
   )
 
   const removeCart = (id: number) => {

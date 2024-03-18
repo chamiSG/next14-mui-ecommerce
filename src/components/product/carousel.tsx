@@ -1,5 +1,6 @@
 'use client'
 import { useMediaQuery, useTheme } from '@mui/material'
+import Image from 'next/image'
 import Carousel from 'react-material-ui-carousel'
 
 const ProductCarousel = ({ data }: { data: any }) => {
@@ -9,9 +10,9 @@ const ProductCarousel = ({ data }: { data: any }) => {
   return (
     <Carousel autoPlay={false} animation="slide" navButtonsAlwaysVisible={true} sx={{ width: {xs: '100%', md: 450}, height: {xs: '278px', md: 450} }} fullHeightHover={false} indicators={false}>
       {data?.map((item: any, i: number) =>
-        <img
+        <Image
           key={i}
-          width={isMobile ? '100%' : 450}
+          style={{width: isMobile ? '100%' : 450}}
           height={isMobile ? 278 : 450}
           src={item} 
           alt={`products_${i}`}

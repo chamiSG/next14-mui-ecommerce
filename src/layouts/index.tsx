@@ -41,7 +41,7 @@ const Layout = (props: LayoutProps) => {
     window.addEventListener('resize', handleResize);
 
     return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  }, [theme]);
 
 
   return (

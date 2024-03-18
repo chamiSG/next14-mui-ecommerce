@@ -2,6 +2,7 @@
 import { Box, Stack, Typography, ImageList, ImageListItem, useMediaQuery, useTheme, Avatar, Rating } from '@mui/material'
 import { CONSTANT } from '@/utils/constants'
 import { imageData } from '@/utils/data'
+import Image from 'next/image'
 
 const AboutUs = () => {
   const theme = useTheme()
@@ -27,7 +28,7 @@ const AboutUs = () => {
             {imageData.map((item: any, i: number) => {
               return (
                 <ImageListItem key={i}>
-                  <img src={item.img} alt={item.title} loading="lazy" />
+                  <Image src={item.img} alt={item.title} loading="lazy" />
                 </ImageListItem>
               )
             })}

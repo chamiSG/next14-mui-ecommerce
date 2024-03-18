@@ -2,6 +2,7 @@
 import { Box, ImageList, ImageListItem, ImageListItemBar, Typography, Link, useMediaQuery, useTheme } from '@mui/material'
 import { bannerImageData } from '@/utils/data'
 import { CONSTANT } from '@/utils/constants'
+import Image from 'next/image'
 
 const Banner = () => {
   const theme = useTheme()
@@ -14,7 +15,7 @@ const Banner = () => {
           {bannerImageData.map((item: any, i: number) => {
             return (
               <ImageListItem key={i} cols={isMobile ? 1 : item.cols} rows={isMobile ? 1 : item.rows}>
-                <img src={item.img} alt={item.title} loading="lazy" />
+                <Image src={item.img} alt={item.title} loading="lazy" />
                 <ImageListItemBar
                   sx={{ background: 'transparent' }}
                   title={
