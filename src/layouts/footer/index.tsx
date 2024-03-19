@@ -1,15 +1,10 @@
 'use client'
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
-import { useTheme } from '@mui/material/styles';
-import TopNavbar from './TopNavbar';
 import { CONSTANT } from '../../utils/constants'
-import { Divider, IconButton, InputBase, Paper, Stack } from '@mui/material';
+import { InputBase, Paper, Stack } from '@mui/material';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
@@ -46,10 +41,6 @@ const Footer = () => {
           ))}
           <Stack>
             <Typography variant="h5" fontSize={'1rem'} mb={'10px'}>Get In Touch</Typography>
-            {/* <Stack direction={'row'}>
-              <TextField placeholder="Your Email" variant="outlined" size="medium" sx={{ borderTopRightRadius: 0, borderEndEndRadius: 0 }} />
-              <Button variant="contained">Subscribe</Button>
-            </Stack> */}
             <Paper
               component="form"
               sx={{ display: 'flex', alignItems: 'center', border: '1px solid #E6E6E6', boxShadow: 'none' }}
