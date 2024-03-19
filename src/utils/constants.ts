@@ -42,6 +42,44 @@ export const CONSTANT = {
     TEMP: {
       TITLE: "the quick fox jumps over",
       DESCRIPTION: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
-    }
-  }
+    },
+  },
+  FOOTER_LINK: [
+    {
+      TITLE: "Company Info",
+      LINKS: [
+        {name: 'About Us', href: '/'},
+        {name: 'Carrier', href: '/'},
+        {name: 'We are hiring', href: '/'},
+        {name: 'Blog', href: '/'},
+      ]
+    },
+    {
+      TITLE: "Legal",
+      LINKS: [
+        {name: 'About Us', href: '/'},
+        {name: 'Carrier', href: '/'},
+        {name: 'We are hiring', href: '/'},
+        {name: 'Blog', href: '/'},
+      ]
+    },
+    {
+      TITLE: "Features",
+      LINKS: [
+        {name: 'Business Marketing', href: '/'},
+        {name: 'User Analytic', href: '/'},
+        {name: 'Live Chat', href: '/'},
+        {name: 'Unlimited Support', href: '/'},
+      ]
+    },
+    {
+      TITLE: "Resources",
+      LINKS: [
+        {name: 'IOS & Android', href: '/'},
+        {name: 'Watch a Demo', href: '/'},
+        {name: 'Customers', href: '/'},
+        {name: 'API', href: '/'},
+      ]
+    },
+  ]
 };

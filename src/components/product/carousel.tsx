@@ -13,6 +13,7 @@ const ProductCarousel = ({ data }: { data: any }) => {
         <Image
           key={i}
           style={{width: isMobile ? '100%' : 450}}
+          width={450}
           height={isMobile ? 278 : 450}
           src={item} 
           alt={`products_${i}`}
